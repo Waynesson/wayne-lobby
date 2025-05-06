@@ -20,7 +20,7 @@ From there you can:
 - Join an existing lobby
 - Leave your current lobby
 
-## Configuration ⚙️
+## Configuration ⚙
 
 You can tweak these settings in `shared/config.lua`:
 ```lua
@@ -31,11 +31,11 @@ Config.EnableKeyBinding = true   -- Enable/disable the key binding
 Config.KeyBindingKey = 'L'       -- Key to open lobby menu
 ```
 
-## Commands 💻
+## Commands 
 
 - `/lobby` - Opens the lobby menu (works regardless of key binding setting)
 
-## License 📄
+## License 
 
 Feel free to use and modify this script for your server! Just remember to keep the credits "DONT BE A SKID PASTER TAKING CREDIT"
 
