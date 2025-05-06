@@ -4,7 +4,10 @@ RegisterCommand('lobby', function()
     openLobbyMenu()
 end, false)
 
-RegisterKeyMapping('lobby', 'Open Lobby Menu', 'keyboard', 'L')
+-- Only register the key mapping if enabled in config
+if Config.EnableKeyBinding then
+    RegisterKeyMapping('lobby', 'Open Lobby Menu', 'keyboard', Config.KeyBindingKey)
+end
 
 function openLobbyMenu()
     lib.registerContext({
