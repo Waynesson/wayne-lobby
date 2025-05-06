@@ -1,4 +1,4 @@
-## Requirements 📋
+## Requirements 
 
 - ox_lib
 
